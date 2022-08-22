@@ -4,7 +4,7 @@
 
     <div class="row items-center">
         <div class="col-xs-12 col-md-4">
-          <q-card bordered class="bg-9 my-card q-ma-xs">
+          <q-card bordered flat class="bg-9 my-card q-ma-xs">
             <q-card-section>
               <div class="text-h5">
                 Device Info
@@ -21,7 +21,7 @@
           </q-card>
         </div>
         <div class="col-xs-12 col-md-4">
-          <q-card bordered class="bg-9 my-card q-ma-xs">
+          <q-card bordered flat class="bg-9 my-card q-ma-xs">
             <q-card-section>
               <div class="text-h5">
                 Device Info
@@ -38,7 +38,7 @@
           </q-card>
         </div>
         <div class="col-xs-12 col-md-4">
-          <q-card bordered class="bg-9 my-card q-ma-xs">
+          <q-card bordered flat class="bg-9 my-card q-ma-xs">
             <q-card-section>
               <div class="text-h5">
                 Device Info
