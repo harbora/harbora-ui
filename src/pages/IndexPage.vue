@@ -1,25 +1,61 @@
 <template>
   <q-page>
-    <div class="row">
-      <div class="col-xs-12 col-md-4">
-        <q-card bordered class="bg-9 my-card">
-          <q-card-section>
-            <div class="text-h5">
-              Device Info
-            </div>
-            <q-separator/>
-            <div class="text-subtitle1">
-              {{ di.name }}
-              <q-badge align="middle" :label="di.type" />
-            </div>
-            <div class="text-body1">
-              Address: {{ di.address }}
-            </div>
-          </q-card-section>
-        </q-card>
+    <div class="">
+
+    <div class="row items-center">
+        <div class="col-xs-12 col-md-4">
+          <q-card bordered class="bg-9 my-card q-ma-xs">
+            <q-card-section>
+              <div class="text-h5">
+                Device Info
+              </div>
+              <q-separator/>
+                <div class="text-subtitle1">
+                  {{ di.name }}
+                  <q-badge align="middle" :label="di.type" />
+                </div>
+                <div class="text-body1">
+                  Address: {{ di.address }}
+                </div>
+            </q-card-section>
+          </q-card>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <q-card bordered class="bg-9 my-card q-ma-xs">
+            <q-card-section>
+              <div class="text-h5">
+                Device Info
+              </div>
+              <q-separator/>
+                <div class="text-subtitle1">
+                  {{ di.name }}
+                  <q-badge align="middle" :label="di.type" />
+                </div>
+                <div class="text-body1">
+                  Address: {{ di.address }}
+                </div>
+            </q-card-section>
+          </q-card>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <q-card bordered class="bg-9 my-card q-ma-xs">
+            <q-card-section>
+              <div class="text-h5">
+                Device Info
+              </div>
+              <q-separator/>
+                <div class="text-subtitle1">
+                  {{ di.name }}
+                  <q-badge align="middle" :label="di.type" />
+                </div>
+                <div class="text-body1">
+                  Address: {{ di.address }}
+                </div>
+            </q-card-section>
+          </q-card>
+
+        </div>
       </div>
-      <div class="col-xs-12 col-md-4"></div>
-      <div class="col-xs-12 col-md-4"></div>
     </div>
   </q-page>
 </template>
